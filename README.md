@@ -31,11 +31,12 @@ Este projeto apresenta, de forma interativa, como o Jazz influenciou o A&B atrav
 
 ##  Tecnologias utilizadas
 
-- HTML5  
+- HTML  
 - CSS3 (com foco em design moderno)  
 - JavaScript  
 - Git e GitHub  
-
+- Sonar
+- Cypress
 ---
 
 ##  Conceito visual
