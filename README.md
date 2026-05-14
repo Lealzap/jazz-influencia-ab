@@ -21,11 +21,11 @@ Este projeto apresenta, de forma interativa, como o Jazz influenciou o A&B atrav
 
 ##  Funcionalidades
 
-- ✅ Página inicial com introdução ao Jazz  
-- ✅ Seção de dicas e curiosidades  
-- ✅ Cards com conteúdos visuais  
-- ✅ Filtro de conteúdo (JavaScript)  
-- ✅ Tema escuro inspirado em clubes de Jazz  
+-  Página inicial com introdução ao Jazz  
+-  Seção de dicas e curiosidades  
+-  Cards com conteúdos visuais  
+-  Filtro de conteúdo (JavaScript)  
+-  Tema escuro inspirado em clubes de Jazz  
 
 ---
 
