@@ -54,7 +54,7 @@ O design do projeto foi inspirado em:
 
 ```bash
 # clonar o repositório
-git clone https://github.com/seu-usuario/jazz-ab.git
+git clone https://github.com/Lealzap/jazz-ab.git
 
 # entrar na pasta
 cd jazz-ab
