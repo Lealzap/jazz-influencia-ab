@@ -1,0 +1,143 @@
+/* Paleta de Cores e Configurações Gerais */
+:root {
+    --azul-noturno: #0f172a;  /* Fundo escuro elegante (Deep Blue/Slate) */
+    --creme-suave: #fdfbf7;   /* Fundo da página (Remete a papel/partitura) */
+    --dourado-jazz: #d97706;  /* Cor de destaque (Instrumentos de sopro/Âmbar) */
+    --dourado-hover: #b45309; /* Tom ligeiramente mais escuro para botões ativos */
+    --texto-escuro: #1e293b;  /* Cor principal para textos de leitura */
+}
+
+body {
+    background-color: var(--creme-suave);
+    color: var(--texto-escuro);
+    font-family: 'Georgia', 'Segoe UI', serif; 
+}
+
+.navbar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  min-height: 80px;
+  align-items: center; /* garante centralização vertical */
+}
+
+/* Customização da Navbar (Menu Superior) */
+.custom-navbar {
+    background-color: var(--azul-noturno) !important;
+    border-bottom: 4px solid var(--dourado-jazz);
+}
+
+.custom-navbar .navbar-brand {
+    color: var(--dourado-jazz) !important;
+    font-size: 1.3rem;
+}
+
+/* Seção Hero (Banner Noturno de Introdução) */
+.hero-section {
+    min-height: 450px;
+    /* Aplica uma máscara escura sobre uma bela imagem de Jazz no Unsplash */
+    background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), 
+                url('https://images.unsplash.com/photo-1486591978090-58e619d37fe7?auto=format&fit=crop&q=80&w=1200') no-repeat center center;
+    background-size: cover;
+}
+
+.project-title {
+    color: var(--creme-suave);
+    letter-spacing: 1px;
+}
+
+.header-subtitle {
+    color: #cbd5e1; /* Cinza claro suave */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Botão Estilizado (Substituindo o padrão do Bootstrap) */
+.btn-jazz {
+    background-color: var(--dourado-jazz);
+    color: white;
+    font-weight: 500;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.btn-jazz:hover {
+    background-color: var(--dourado-hover);
+    color: white;
+}
+
+/* Estilização dos Blocos de Texto */
+.section-title {
+    color: var(--azul-noturno);
+    border-left: 4px solid var(--dourado-jazz);
+    padding-left: 12px;
+}
+
+.text-custom-muted {
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Cards Informativos Inferiores */
+.card-jazz {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border-top: 3px solid var(--azul-noturno) !important;
+    transition: transform 0.3s ease;
+}
+
+.card-jazz:hover {
+    transform: translateY(-5px); /* Efeito suave ao passar o mouse */
+}
+
+.jazz-icon {
+    font-size: 2.5rem;
+}
+
+/* Rodapé */
+.footer-jazz {
+    background-color: var(--azul-noturno);
+    border-top: 4px solid var(--dourado-jazz);
+}
+
+/*--------------------------------------HISTÓRIA.HTML---------------------------------*/
+
+/* Hero da página História */
+.hero-history {
+    min-height: 380px;
+    background: linear-gradient(rgba(15, 23, 42, 0.86), rgba(15, 23, 42, 0.86)),
+                url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&q=80&w=1200')
+                no-repeat center center;
+    background-size: cover;
+}
+
+/* Caixa estilo blog */
+.blog-card {
+    padding: 10px;
+}
+
+.blog-quote {
+    background-color: #ffffff;
+    border-left: 5px solid var(--dourado-jazz);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Linha do tempo simples */
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.timeline-year {
+    min-width: 90px;
+    font-weight: bold;
+    color: var(--dourado-jazz);
+    font-size: 1.1rem;
+}
+
+.timeline-content {
+    flex: 1;
+}
