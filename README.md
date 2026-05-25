@@ -1,8 +1,8 @@
-# jazz-influencia-ab
-Projeto acadêmico sobre a influência do Jazz no A&amp;B (Arte e Branding)
-#  Jazz & sua Influência no A&B
+# jazz-influencia-rb
+Projeto acadêmico sobre a influência do Jazz no R&amp;B (Rythm e Blues)
+#  Jazz & sua Influência no R&B
 
-> Um projeto web que explora como o Jazz influenciou o universo do A&B (Arte, Branding e experiências visuais), destacando estilo, criatividade e identidade cultural.
+> Um projeto web que explora como o Jazz influenciou o universo do R&B, destacando estilo, criatividade e identidade cultural.
 
 ---
 
@@ -10,7 +10,7 @@ Projeto acadêmico sobre a influência do Jazz no A&amp;B (Arte e Branding)
 
 O Jazz não é apenas um gênero musical — é um movimento cultural que impactou profundamente áreas como design, publicidade, moda e identidade visual.
 
-Este projeto apresenta, de forma interativa, como o Jazz influenciou o A&B através de:
+Este projeto apresenta, de forma interativa, como o Jazz influenciou o R&B através de:
 
 - Expressão criativa  
 - Improvisação no design  
