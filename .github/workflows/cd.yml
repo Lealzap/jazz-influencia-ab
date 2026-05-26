@@ -11,6 +11,9 @@ permissions:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+
     runs-on: ubuntu-latest
 
     steps:
@@ -19,6 +22,8 @@ jobs:
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Enviar arquivos
         uses: actions/upload-pages-artifact@v3
