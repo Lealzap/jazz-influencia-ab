@@ -23,4 +23,3 @@ jobs:
           args: >
             -Dsonar.projectKey=jazz-influencia-ab
             -Dsonar.host.url=https://jonasaidento2500092.azurewebsites.net
-            -Dsonar.sources=.
