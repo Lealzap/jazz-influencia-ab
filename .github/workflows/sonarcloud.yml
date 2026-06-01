@@ -21,7 +21,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=Lealzap_jazz-influencia-ab
-            -Dsonar.organization=lealzap
-            -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.projectKey=jazz-influencia-ab
+            -Dsonar.host.url=https://jonasaidento2500092.azurewebsites.net
             -Dsonar.sources=.
