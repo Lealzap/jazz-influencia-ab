@@ -1,6 +1,6 @@
 describe('Testes - Página Home', () => {
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:5500');
+    cy.visit('https://lealzap.github.io/jazz-influencia-ab/index.html');
   });
 
   it('deve carregar a página home corretamente', () => {
