@@ -1,4 +1,4 @@
-name: SonarCloud
+name: SonarQube
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  sonarcloud:
+  sonarqube:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,12 +24,12 @@ jobs:
             echo "SONAR_TOKEN existe"
           fi
 
-      - name: SonarCloud Scan
+      - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=Lealzap_jazz-influencia-ab
-            -Dsonar.organization=lealzap
-            -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.projectKey=jazz-influencia-ab
+            -Dsonar.sources=.
+            -Dsonar.host.url=https://jonasaidento2500092.azurewebsites.net
